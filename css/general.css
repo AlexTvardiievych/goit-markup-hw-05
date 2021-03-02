@@ -34,9 +34,12 @@ header{
   margin-left: 93px;  
 }
 
-.nav-menu :not(:last-child),
+.nav-menu :not(:last-child){
+  margin-right: 50px;
+}
+
 .nav-contact :not(:last-child){
-  padding-right: 30px;
+  margin-right: 30px;
 }
 
 .nav-menu > li > a{
@@ -113,7 +116,15 @@ header{
 }
 
 .nav-contact-li{
-  display: block;  
+  display: block;   
+}
+
+.nav-contact.nav-contact-li > li{
+  margin-right: 0px;
+}
+
+.nav-contact-li :not(:last-child){
+  margin-bottom: 9px;
 }
 
 .nav-contact-icon{
@@ -217,5 +228,5 @@ header{
 .div-contact{
   display: flex;
   align-items: center;
-  margin-left: 331px;    
+  margin-left: 305px;    
 }
